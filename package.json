@@ -1,0 +1,20 @@
+{
+  "name": "final_335",
+  "version": "1.0.0",
+  "description": "Submitted by: Tariq Abdelkahlek (directory id: tar)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "env": "^0.0.2",
+    "express": "^4.21.2",
+    "mongodb": "^6.11.0"
+  }
+}
