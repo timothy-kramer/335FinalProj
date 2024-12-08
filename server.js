@@ -19,11 +19,11 @@ const coll = process.env.MONGO_COLLECTION;
 const uri = `mongodb+srv://${un}:${pw}@cluster0.2xyim.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 const databaseAndCollection = {db: db, collection: coll};
 
-if (process.argv.length != 3) {
-  process.exit(1);
-}
+//if (process.argv.length != 3) {
+//  process.exit(1);
+//}
 
-const portNumber = process.argv[2]
+const portNumber = 4000 // || process.argv[2] 
 
 app.listen(portNumber, () => {
   process.stdout.write(
